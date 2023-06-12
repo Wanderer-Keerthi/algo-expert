@@ -1,4 +1,4 @@
-# O(n) timw | O(n) space - where n is the length of the array
+# O(n) time | O(n) space - where n is the length of the array
 def minHeightBst(array):
     return constructMinHeightBst(array, 0, len(array) - 1)
 
@@ -19,6 +19,7 @@ class BST:
         self.left = None
         self.right = None
 
+    # We don't use this method for this solution
     def insert(self, value):
         if value < self.value:
             if self.left is None:
@@ -33,7 +34,7 @@ class BST:
 
 
 # Solution 2
-# O(n) timw | O(n) space - where n is the length of the array
+# O(n) time | O(n) space - where n is the length of the array
 # def minHeightBst(array):
 #     return constructMinHeightBst(array, None, 0, len(array) - 1)
 
@@ -62,7 +63,7 @@ class BST:
 #         self.value = value
 #         self.left = None
 #         self.right = None
-
+      # We don't use this method for this solution
 #     def insert(self, value):
 #         if value < self.value:
 #             if self.left is None:
@@ -76,7 +77,7 @@ class BST:
 #                 self.right.insert(value)
 
 # Solution 3 
-# O(nlog(n)) timw | O(n) space - where n is the length of the array
+# O(nlog(n)) time | O(n) space - where n is the length of the array
 # def minHeightBst(array):
 #     return constructMinHeightBst(array, None, 0, len(array) - 1)
 
