@@ -1,3 +1,4 @@
+# Solution 1
 # Do not edit the class below except for
 # the insert, contains, and remove methods.
 # Feel free to add new properties and methods

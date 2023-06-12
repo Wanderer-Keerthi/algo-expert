@@ -1,3 +1,4 @@
+# Solution 1
 # Average: O(log(n)) time | O(1) space
 # Worst: O(n) time | O(1) space
 def findClosestValueInBst(tree, target):
